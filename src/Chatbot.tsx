@@ -18,6 +18,9 @@ const Chatbot = ({ secret, userID }: {secret: string; userID: string}) => {
     // overall chatbot styling
     accent: '#66ccff',
     subtle: '#d9d9d9',
+    fontSize: 100,
+    fontSizeSmall: 100,
+    monospaceFont: 90,
     botAvatarInitials: 'ESOL',
     userAvatarInitials: 'You',
     backgroundColor: '#242424',
